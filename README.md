@@ -11,9 +11,11 @@ This repository will contain templates outlining the recommended information to 
 Luke Mewburn, luke@mewburn.net.  
 February 2023.
 
+
 ## Templates
 
-TODO
+[Home Manual Template](Home-Manual-Template.md)
+
 
 ## Password managers
 
@@ -25,6 +27,7 @@ Setup a "shared family" section with entries including:
 - Wifi passwords
 
  We currently use [1Password](https://1password.com), but others such as [bitwarden](https://bitwarden.com) are also well regarded.
+
 
 ## Motivation
 

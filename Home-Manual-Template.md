@@ -8,14 +8,15 @@ Describe your home's location and general overview.
 
 | Item/Service  | Provider | Phone | Section |
 | ------------- | -------- | ----- | ------- |
-| Electricity | | | |
+| Electricity | | | [Electricity distributor](#electricity-distributor) |
 | Electrician | | | |
 | Fire  |  Emergency Services  | 000 | |
-| Internet | | | |
+| Internet | | | [Internet retailer](#internet-retailer) |
 | Locksmith | | | |
 | Plumber | | | |
 | Storm and flood | State Emergency Service | 132 500 | |
-| Water and sewer | | | |
+| Water and sewer | | | [Water and sewer supplier](#water-and-sewer-supplier) |
+
 
 # Page 2
 
@@ -35,6 +36,7 @@ Diagram of property with outline of buildings and important connection points. F
 - Property access points (driveways, gates).
 - Home entry points.
 
+
 # Page 3
 
 ## Table of contents
@@ -53,9 +55,9 @@ Table describing terms used in the document.
 | PV | Photo-voltaic solar system |
 | TBC | To Be Confirmed |
 
-# Page n...
 
 # Energy
+
 ## General
 
 Overview of your home's energy supply: services (electricity supply, BESS, solar PV systems). Our home only uses electricity (we removed the fossil methane supply in 2017), so I only documented that.
@@ -77,6 +79,14 @@ Table with details of our electricity network (wholesale) distributor - who to c
 | Meter 2 - solar1 | |
 
 ## Electricity retailer
+
+| Item | Details |
+| -- | -- |
+| Provider | *name*, *url*, *phone* |
+| Account # | |
+| Customer # | |
+| Password entry | |
+
 ## Electricity circuits
 
 Description of the various circuits' purposes and circuit breaker locations.
@@ -104,25 +114,61 @@ Location of each light fixture and its switch, and which circuit they're on. I a
 The convention I used to was to use a letter group for each collection of lights/fans and their switches. E.g. A switch labeled "A:1" means switch for light fixture A on circuit 1, and its light fixture was labeled "A".
 
 ## Smoke alarms
-## Solar system
+
+Description of smoke alarm(s) location, battery replacement interval, and any other relevant notes. 
+
+## Solar PV system
+
+Description of solar PV systems: external panel locations, inverter details, supplier details, and any other relevant notes. 
+
 
 # Garage
-## Roller door motor
+
+## General
+
+Overview of your garage (if any).
+
+Subsections describing any relevant information such as:
+- Roller door motor
+- Remote monitoring
+
 
 # Garden
+
 ## General
-## Garden controller
-## Garden zones
+
+Overview of garden (if any), including watering system.
+
+## Watering system
+
+Description of watering system, including:
+- controller
+- zones
+- cabling colour
+- valve and solenoid locations
+
 ## Garden diagram
 
+Similar to [External connections diagram](#external-connections-diagram), with details of the garden and watering system.
+
+
 # Heating and cooling
+
 ## General
+
+Overview of the heating and cooling systems, (double) glazing, insulation, etc.
+
 ## HVAC system
+
+
 
 # Internet of Things (IoT)
 ## General
 ## *various technologies*
 ## IoT diagram
+
+# Locks
+## General
 
 # Network and internet
 ## General
@@ -132,10 +178,10 @@ The convention I used to was to use a letter group for each collection of lights
 
 # Water and sewer
 ## General
-## Water and sewer providers
+## Water and sewer supplier
 ## Hot water service
 ## Toilets
 ## Water and sewer diagram
 
 # Appliances
-## *various appliances*
+## *Per appliance*

@@ -6,7 +6,7 @@ This repository contains advice and templates for documenting your home in a *Ho
 
 My goal is to encourage you to document important information about living in your home, for day-to-day purposes as well as when emergencies occur.
 
-This repository contains templates outlining the recommended information to including in a *Home manual*.
+This repository contains templates outlining the recommended information to include in a *Home manual*.
 
 Luke Mewburn, Luke@Mewburn.net.  
 February 2023.
@@ -14,7 +14,7 @@ February 2023.
 
 ## Templates
 
-[Home Manual Template](Home-Manual-Template.md)
+### [Home Manual Template](Home-Manual-Template.md)
 
 ## General advice
 
@@ -36,7 +36,7 @@ February 2023.
 
 Use a good password manager for your personal passwords and information.
 
-Setup a "shared family" section with entries including:
+Setup a "Shared family" section (... shared with your family) with entries including:
 - Household services (energy, internet, water)
 - Insurance documents (home, car)
 - Wifi passwords

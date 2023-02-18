@@ -147,5 +147,7 @@ Table with details of our electricity network (wholesale) provider - who to call
 ## Water filters
 ## Water and sewer diagram
 
-# Applicances
-
+# Appliances
+## Air purifiers
+## Dryer
+## Washing machine

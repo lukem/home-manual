@@ -12,6 +12,15 @@ Luke Mewburn, Luke@Mewburn.net.
 February 2023.
 
 
+## Motivation
+
+Over recent years a couple of friends have unexpectedly lost their partners. Aside from their grief, important knowledge about how their home operated was lost or hard to find.
+
+My beloved wife Inger (AKA [Thesis Whisperer](https://thesiswhisperer.com)) and I discussed me writing a "*Home manual*" documenting important and useful information about our home, because most of the information was either in my head or spread across years of email messages in my personal mail account.
+
+I wrote the initial version of our *Home manual* over the summer break of December 2022 - January 2023, and it's currently 30 pages of documentation and diagrams.
+
+
 ## Templates
 
 ### [Home Manual Template](Home-Manual-Template.md)
@@ -46,12 +55,3 @@ Setup a "Shared family" section (... shared with your family) with entries inclu
 - Wifi passwords
 
 We currently use [1Password](https://1password.com), but others such as [bitwarden](https://bitwarden.com) are also well regarded.
-
-
-## Motivation
-
-Over recent years a couple of friends have unexpectedly lost their partners. Aside from their grief, important knowledge about how their home operated was lost or hard to find.
-
-My beloved wife Inger (AKA [Thesis Whisperer](https://thesiswhisperer.com)) and I discussed me writing a "*Home manual*" documenting important and useful information about our home, because most of the information was either in my head or spread across years of email messages in my personal mail account.
-
-I wrote the initial version of our *Home manual* over the summer break of December 2022 - January 2023, and it's currently 30 pages of documentation and diagrams.

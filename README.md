@@ -18,7 +18,7 @@ Over recent years a couple of friends have unexpectedly lost their partners. Asi
 
 My beloved wife Inger (AKA [Thesis Whisperer](https://thesiswhisperer.com)) and I discussed me writing a "*Home manual*" documenting important and useful information about our home, because most of the information was either in my head or spread across years of email messages in my personal mail account.
 
-I wrote the initial version of our *Home manual* over the summer break of December 2022 - January 2023, and it's currently 30 pages of documentation and diagrams.
+I wrote the initial version of our *Home manual* over the summer break of December 2022 - January 2023, and it's currently 34 pages of documentation and diagrams.
 
 
 ## Templates
@@ -29,9 +29,13 @@ I wrote the initial version of our *Home manual* over the summer break of Decemb
 
 - Keep the *Home manual* up to date.
 - Documentation:
-  - Information to maintain for a service provider:
-     - Contact information
-     - Account numbers (unless you consider it sensitive like a password - see below).
+  - Server provider information:
+     - Contact information.
+     - Account and/or customer numbers.
+     - Plan details (if relevant).
+     - Password manager entry.
+  - Device information:
+     - Description, model, location, serial number, purchase date, warranty expiry date, supplier, installer (if separate to supplier).
   - Don't store sensitive information such as passwords - use a [password manager](#password-managers). A reference to the relevant entry in the password manager entry is sensible.
 - Diagrams:
   - These don't need to be architectural, construction, or engineering grade. The important point is to contain information useful to lay-people. My diagrams are specifically "not to scale".

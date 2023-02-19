@@ -41,9 +41,11 @@ Diagram of property with outline of buildings and important connection points. F
 
 ## Table of contents
 
+Provide a table of contents.
+
 ## Glossary
 
-Table describing terms used in the document.
+Table describing terms used in your home manual.
 
 | Term | Description |
 | ---- | ----------- |
@@ -119,8 +121,21 @@ Description of smoke alarm(s) location, battery replacement interval, and any ot
 
 ## Solar PV system
 
-Description of solar PV systems: external panel locations, inverter details, supplier details, and any other relevant notes. 
+Description of solar PV systems: external panel locations, inverter details, supplier details, and any other relevant notes.
 
+| Item | Details |
+| -- | -- |
+| Inverter model |  |
+| Inverter location | |
+| Inverter capacity | |
+| Inverter serial number | |
+| Inverter warranty expiry | |
+| Panel model and count |  |
+| Panel location | |
+| Panel capacity | |
+| Panel warranty expiry | |
+| Installation date | |
+| Supplier | |
 
 # Garage
 
@@ -160,6 +175,19 @@ Overview of the heating and cooling systems, (double) glazing, insulation, etc.
 
 ## HVAC system
 
+| Item | Details |
+| -- | -- |
+| Outdoor model |  |
+| Outdoor location | |
+| Outdoor serial number | |
+| Indoor model | |
+| Indoor location | |
+| Indoor serial number | |
+| Controller model | |
+| Controller location | |
+| Installation date | |
+| Warranty expiry | |
+| Supplier | |
 
 
 # Internet of Things (IoT)

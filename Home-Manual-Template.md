@@ -54,12 +54,13 @@ Table describing terms used in your home manual.
 | HVAC | Heating, Ventilation, and Air Conditioning |
 | HW | Hot Water |
 | IO | Inspection Outlet |
+| LAN | Local Area Network |
 | PV | Photo-voltaic solar system |
 | TBC | To Be Confirmed |
+| WAN | Wide Area Network (aka Internet) |
 
 
 # Energy
-
 ## General
 
 Overview of your home's energy supply: services (electricity supply, BESS, solar PV systems). Our home only uses electricity (we removed the fossil methane supply in 2017), so I only documented that.
@@ -71,12 +72,12 @@ Table with details of our electricity network (wholesale) distributor - who to c
 | Item | Details |
 | -- | -- |
 | Provider | *name*, *url*, *phone* |
-| Emergency phone | *phone* |
+| Emergency phone | |
 | Connection location | *attachment point to home* |
 | Service type | *E.g., 240V single phase, 63A* |
-| Meter location ||
-| Internal sub-board location ||
-| National Metering Identifier ||
+| Meter location | |
+| Internal sub-board location | |
+| National Metering Identifier | |
 | Meter 1 - consumption | |
 | Meter 2 - solar1 | |
 
@@ -85,6 +86,7 @@ Table with details of our electricity network (wholesale) distributor - who to c
 | Item | Details |
 | -- | -- |
 | Provider | *name*, *url*, *phone* |
+| Emergency phone | |
 | Account # | |
 | Customer # | |
 | Password entry | |
@@ -110,6 +112,8 @@ Location of each GPO (power point) and hard-wired appliance (such as cooktop, ho
 Add notes for special cases (e.g., GPO inside a cupboard, switches for a hard-wired appliance co-located in a GPO, etc.)
 
 ## Lights inside diagram
+
+Similar to [Electricity inside diagram](#electricity-inside-diagram).
 
 Location of each light fixture and its switch, and which circuit they're on. I also documented exhaust fans that are co-located with lights (share a switch or switch panel).
 
@@ -137,8 +141,8 @@ Description of solar PV systems: external panel locations, inverter details, sup
 | Installation date | |
 | Supplier | |
 
-# Garage
 
+# Garage
 ## General
 
 Overview of your garage (if any).
@@ -149,7 +153,6 @@ Subsections describing any relevant information such as:
 
 
 # Garden
-
 ## General
 
 Overview of garden (if any), including watering system.
@@ -168,7 +171,6 @@ Similar to [External connections diagram](#external-connections-diagram), with d
 
 
 # Heating and cooling
-
 ## General
 
 Overview of the heating and cooling systems, (double) glazing, insulation, etc.
@@ -192,24 +194,125 @@ Overview of the heating and cooling systems, (double) glazing, insulation, etc.
 
 # Internet of Things (IoT)
 ## General
-## *various technologies*
+
+Overview of your IoT setup (if any).
+
+## *Per IoT technology*
+
+| Item | Details |
+| -- | -- |
+| Model |  |
+| Location | |
+| Serial number | |
+| MAC address (LAN) | |
+| [Network port](#network-ports-diagram) | |
+| [Network connection](#network-connections-diagram) | |
+| Installation date | |
+| Warranty expiry | |
+| Supplier | |
+| Phone application | |
+| Password entry | |
+
 ## IoT diagram
+
+Similar to [Electricity inside diagram](#electricity-inside-diagram).
+
+I use a convention of a different colour scheme per IoT technology.
+
 
 # Locks
 ## General
 
+Overview of the locks and keys in the house.
+
+
 # Network and internet
 ## General
+
+Overview of the local area network (LAN) and internet connection.
+
 ## Internet retailer
+
+| Item | Details |
+| -- | -- |
+| Provider | *name*, *url*, *phone* |
+| Emergency phone | |
+| Account # | |
+| Customer # | |
+| Modem model | |
+| Modem location | |
+| Password entry | |
+
 ## Network ports diagram
+
+Similar to [Electricity inside diagram](#electricity-inside-diagram).
+
 ## Network connections diagram
+
+Logical network design, from internet to all devices.
+
+Details for each device could include:
+- Logical name.
+- Model.
+- IP address(es), including WAN (internet) addresses
+- [Network port](#network-ports-diagram).
+
+I use a convention that labels a network connection with which device port is connected to which network port.
+
 
 # Water and sewer
 ## General
+
+Overview of your water and sewer setup.
+
 ## Water and sewer supplier
+
+| Item | Details |
+| -- | -- |
+| Provider | *name*, *url*, *phone* |
+| Emergency phone | |
+| Account # | |
+| Customer # | |
+| Password entry | |
+
 ## Hot water service
+
+| Item | Details |
+| -- | -- |
+| Model |  |
+| Location | |
+| Serial number | |
+| Installation date | |
+| Warranty expiry | |
+| Supplier | |
+
 ## Toilets
+
+I found it useful to document emergency water shutoff procedure for the toilets.
+
+Our toilets also have soft-closing seats which occasionally need re-aligning to function correctly, and I documented the procedure that I determined for this.
+
 ## Water and sewer diagram
 
+Similar to [External connections diagram](#external-connections-diagram), with details of the water and sewer connections.
+
+Document the location of the underground water supply, sewer pipes and access pits, and storm water drains and access pits, even if only an approximation.
+
+
 # Appliances
+
+Document each appliance, especially those "hard-wired".
+
 ## *Per appliance*
+
+| Item | Details |
+| -- | -- |
+| Description |  |
+| Model |  |
+| Location | |
+| Serial number | |
+| Installation date | |
+| Warranty expiry | |
+| Manufacturer contact | |
+| Supplier | |
+| Service contact | |

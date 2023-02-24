@@ -9,7 +9,7 @@ My goal is to encourage you to document important information about living in yo
 This repository contains templates outlining the recommended information to include in your *Home manual*.
 
 Luke Mewburn, Luke@Mewburn.net.  
-February 2023.
+24 February 2023.
 
 
 ## Motivation
@@ -23,7 +23,8 @@ I wrote the initial version of our *Home manual* over the summer break of Decemb
 
 ## Templates
 
-### [Home Manual Template](Home-Manual-Template.md)
+### 1. [Home-Manual-Template.md](Home-Manual-Template.md)
+Home Manual Template, in Markdown
 
 ## General advice
 
@@ -58,4 +59,4 @@ Setup a "Shared family" section (... shared with your family) with entries inclu
 - Insurance documents (home, car)
 - Wifi passwords
 
-We currently use [1Password](https://1password.com), but others such as [bitwarden](https://bitwarden.com) are also well regarded.
+We currently use **1Password**, but other password managers such as **Bitwarden** are also well regarded.

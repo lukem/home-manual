@@ -12,7 +12,7 @@ This repository contains templates outlining the recommended information to
 include in your *Home manual*.
 
 Luke Mewburn, Luke@Mewburn.net.
-12 February 2026.
+13 February 2026.
 
 ## Motivation
 
@@ -34,13 +34,20 @@ pages of documentation and diagrams.
 
 ### 1. [mdbook template](template/SUMMARY.md)
 
-This is a template based on my current pratice (as at Feburary 2026).
+This is a template based on my current practice (as at Feburary 2026).
 The manual is a **git** repository containing a tree of folders in (GitHub
 compatible) Markdown format, including the link and anchor slug format.
 
-This template Home manual is in **mdbook** format.
+This template *Home manual* is in **mdbook** format.
 
-The following tools should be installed (using **rust**'s **cargo**):
+The following tools should be installed:
+
+- [mdbook](https://rust-lang.github.io/mdBook/)
+- [mdbook-lint](https://joshrotenberg.com/mdbook-lint/)
+- [mdbook-pandoc](https://github.com/max-heller/mdbook-pandoc)
+- [pandoc](https://pandoc.org/installing.html)
+
+For example, using **rust**'s **cargo** and **brew** on macOS:
 
 ```sh
 cargo install mdbook mdbook-lint mdbook-numbering mdbook-pandoc
@@ -50,12 +57,18 @@ brew install pandoc librsvg python homebrew/cask/basictex
 To render locally into a web browser, use
 
 ```sh
-mdbook serve --open
+mdbook serve --open .
+```
+
+To generate a PDF in `.book/pandoc/pdf/HomeManual.pdf`, use:
+
+```sh
+mdbook build
 ```
 
 ### 2. [Home-Manual-Template.md](Home-Manual-Template.md)
 
-Original Home Manual Template, in Markdown.
+Original *Home manual* Template, in Markdown.
 
 ## General advice
 
@@ -67,35 +80,29 @@ Original Home Manual Template, in Markdown.
     - Plan details (if relevant).
     - Password manager entry.
   - Device information:
-    - Description, model, location, serial number, purchase date, warranty
-      expiry date, supplier, installer (if separate to supplier).
-  - Don't store sensitive information such as passwords - use a
-    [password manager](#password-managers).
+    - Description, model, location, serial number, purchase date, warranty, expiry date, supplier, installer (if separate to supplier).
+  - Don't store sensitive information such as passwords - use a [password manager](#password-managers).
     A reference to the relevant entry in the password manager entry is sensible.
 - Diagrams:
-  - These don't need to be architectural, construction, or engineering grade.
-    The important point is to contain information useful to lay-people.
-    My diagrams are specifically "not to scale".
+  - These don't need to be architectural, construction, or engineering grade. The important point is to contain information useful to lay-people. My diagrams are specifically "not to scale".
   - Maintain layers (if your diagram software supports layers) for:
     - External property plan.
     - Internal home plan.
     - Services: electricity, garden, IoT, lights, network, water/sewer, (etc.)
 - Software:
-  - Use software and tools that are useable and maintainable by your household.
-    I've migrated to using an **mdbook** setup with the repository hosted in GitHub.
+  - Use software and tools that are useable and maintainable by your household. I've migrated to using an **mdbook** setup with the repository hosted in GitHub.
   - Export to PDF and store in well-known locations.
-  - Print the manual and store in a well-known location. Even just the first
-    few pages with emergency and critical information can be helpful.
+  - Print the manual and store in a well-known location. Even just the first few pages with emergency and critical information can be helpful.
 
 ## Password managers
 
 Use a good password manager for your personal passwords and information.
 
-Setup a "Shared family" section (... shared with your family) with entries including:
+Setup a "Shared family" section (shared with your family) with entries including:
 
-- Household services (energy, internet, water)
-- Insurance documents (home, car)
-- Wifi passwords
+- Household services (energy, internet, water).
+- Insurance documents (home, car).
+- Wifi passwords.
 
 We currently use **1Password**, but other password managers such as
 **Bitwarden** are also well regarded.

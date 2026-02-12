@@ -1,0 +1,16 @@
+disabled-rules = [
+  "CONTENT001", # no-todo-comments
+  "CONTENT002", # no-placeholder-text
+  "CONTENT003", # no-short-chapters
+  "CONTENT004", # heading-capitalization
+  "CONTENT005", # intro-before-subheading
+  "CONTENT007", # consistent-terminology
+  "MD024",      # no-duplicate-heading
+  "MD033",      # no-inline-html
+  "MD044",      # proper-names
+  "MDBOOK004",  # no-duplicate-chapter-titles
+  "MDBOOK005",  # orphaned-files
+]
+
+[MD013]
+line-length = 96

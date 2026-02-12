@@ -1,0 +1,32 @@
+[book]
+title = "Home Manual Template"
+authors = ["Luke Mewburn"]
+src = "template"
+language = "en"
+
+[build]
+build-dir = ".book"
+create-missing = false
+
+[output.html]
+
+[output.pandoc]
+
+[output.pandoc.profile.pdf]
+output-file = "HomeManual.pdf"
+# verbosity = "INFO"
+
+[output.pandoc.profile.pdf.variables]
+papersize = "a4"
+documentclass = "report"    # try "extarticle"
+margin-bottom = "25mm"
+margin-left = "25mm"
+margin-right = "25mm"
+margin-top = "25mm"
+colorlinks = true
+linkcolor = "blue"
+toccolor = "gray"
+urlcolor = "red"
+# TODO: fontfamily = "helvet"
+
+[preprocessor.lint]

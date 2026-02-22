@@ -3,42 +3,51 @@
 ## Introduction
 
 This repository contains advice and templates for documenting your home in a
-*Home manual*, for yourself as well as any other users of your home.
+*Home Manual*, for yourself as well as any other users of your home.
 
 My goal is to encourage you to document important information about living in
 your home, for day-to-day purposes as well as when emergencies occur.
 
 This repository contains templates outlining the recommended information to
-include in your *Home manual*.
+include in your *Home Manual*.
 
 Luke Mewburn, Luke@Mewburn.net.
-13 February 2026.
+22 February 2026.
 
-## Motivation
+## Template in mdbook format
 
-Over recent years a couple of friends have unexpectedly lost their partners.
-Aside from their grief, important knowledge about how their home operated was
-lost or hard to find.
+### Overview
 
-My beloved wife Inger (AKA [Thesis Whisperer](https://thesiswhisperer.com)) and
-I discussed me writing a "*Home manual*" documenting important and useful
-information about our home, because most of the information was either in my
-head or spread across years of email messages in my personal mail account.
-
-I wrote the initial version of our *Home manual* over the summer break of
-December 2022 - January 2023.
-The manual has since been converted to **mdbook**, and it's currently 52
-pages of documentation and diagrams.
-
-## Templates
-
-### 1. [mdbook template](template/SUMMARY.md)
+See the [template/SUMMARY.md](template/SUMMARY.md) file.
 
 This is a template based on my current practice (as at Feburary 2026).
 The manual is a **git** repository containing a tree of folders in (GitHub
 compatible) Markdown format, including the link and anchor slug format.
 
-This template *Home manual* is in **mdbook** format.
+This template *Home Manual* is in **mdbook** format.
+
+### Setup - repository
+
+To setup your *Home Manual* from this template:
+
+Clone this repository using **git**, either as a copy from my upstream at
+[https://github.com/lukem/home-manual](https://github.com/lukem/home-manual)
+or from your own **git** fork.
+
+Rename the `template` directory to your own name, for example `HomeManual`:
+
+```sh
+git mv template HomeManual
+git commit
+```
+
+Update `book.toml`:
+
+1. Use your new directory instead of `template`.
+   In the `[book]` section, change `src = "template"` to `src = "HomeManual"`.
+2. Change the book `title` and `authors` appropriately.
+
+### Setup - required tools
 
 The following tools should be installed:
 
@@ -54,6 +63,8 @@ cargo install mdbook mdbook-lint mdbook-numbering mdbook-pandoc
 brew install pandoc librsvg python homebrew/cask/basictex
 ```
 
+### Generating HTML or PDF
+
 To render locally into a web browser, use
 
 ```sh
@@ -66,13 +77,9 @@ To generate a PDF in `.book/pandoc/pdf/HomeManual.pdf`, use:
 mdbook build
 ```
 
-### 2. [Home-Manual-Template.md](Home-Manual-Template.md)
-
-Original *Home manual* Template, in Markdown.
-
 ## General advice
 
-- Keep the *Home manual* up to date.
+- Keep the *Home Manual* up to date.
 - Documentation:
   - Server provider information:
     - Contact information.
@@ -106,3 +113,19 @@ Setup a "Shared family" section (shared with your family) with entries including
 
 We currently use **1Password**, but other password managers such as
 **Bitwarden** are also well regarded.
+
+## Motivation
+
+Over recent years a couple of friends have unexpectedly lost their partners.
+Aside from their grief, important knowledge about how their home operated was
+lost or hard to find.
+
+My beloved wife Inger (AKA [Thesis Whisperer](https://thesiswhisperer.com)) and
+I discussed me writing a "*Home Manual*" documenting important and useful
+information about our home, because most of the information was either in my
+head or spread across years of email messages in my personal mail account.
+
+I wrote the initial version of our *Home Manual* over the summer break of
+December 2022 - January 2023.
+The manual has since been converted to **mdbook**, and it's currently 52
+pages of documentation and diagrams.

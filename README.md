@@ -21,7 +21,7 @@ Luke Mewburn, Luke@Mewburn.net.
 See the [template/SUMMARY.md](template/SUMMARY.md) file.
 
 This is a template based on my current practice (as at Feburary 2026).
-The manual is a **git** repository containing a tree of folders in (GitHub
+The manual is a **git** repository containing a tree of directories in (GitHub
 compatible) Markdown format, including the link and anchor slug format.
 
 This template *Home Manual* is in **mdbook** format.
@@ -34,10 +34,13 @@ Clone this repository using **git**, either as a copy from my upstream at
 [https://github.com/lukem/home-manual](https://github.com/lukem/home-manual)
 or from your own **git** fork.
 
-Rename the `template` directory to your own name, for example `HomeManual`:
+Determine your own name (that's not `template`), for example `HomeManual`.
+
+Copy `template` directory to your new name, and commit to the repository:
 
 ```sh
-git mv template HomeManual
+cp -R template HomeManual
+git add HomeManual
 git commit
 ```
 
@@ -54,9 +57,10 @@ The following tools should be installed:
 - [mdbook](https://rust-lang.github.io/mdBook/)
 - [mdbook-lint](https://joshrotenberg.com/mdbook-lint/)
 - [mdbook-pandoc](https://github.com/max-heller/mdbook-pandoc)
-- [pandoc](https://pandoc.org/installing.html)
+- [pandoc](https://pandoc.org/installing.html), and any dependencies **pandoc** requires.
 
-For example, using **rust**'s **cargo** and **brew** on macOS:
+For example, on macOS using [Rust](https://rust-lang.org)'s `rust` and `cargo`
+and [Homebrew](https://brew.sh) on macOS:
 
 ```sh
 cargo install mdbook mdbook-lint mdbook-numbering mdbook-pandoc
@@ -96,6 +100,7 @@ mdbook build
     - External property plan.
     - Internal home plan.
     - Services: electricity, garden, IoT, lights, network, water/sewer, (etc.)
+  - Consider [draw.io](https://app.diagrams.net), saving the `.draw.io` files alongside the exported `.png` files.
 - Software:
   - Use software and tools that are useable and maintainable by your household. I've migrated to using an **mdbook** setup with the repository hosted in GitHub.
   - Export to PDF and store in well-known locations.

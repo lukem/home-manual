@@ -8,8 +8,10 @@ This chapter contains all the figures for the home manual.
 
 ### External connections figure
 
-> [!TIP]
-> Template: Add inline figure of external connections (energy, internet, water, ...).
+![External connections](Artifacts/External-connections.drawio.png)
+
+> [!NOTE]
+> Template: This is an example house, with a 3 layer draw.io figure.
 
 ### Electricity outside figure
 

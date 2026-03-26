@@ -67,7 +67,7 @@ cargo install mdbook mdbook-lint mdbook-numbering mdbook-pandoc
 brew install pandoc librsvg python homebrew/cask/basictex
 ```
 
-### Generating HTML or PDF
+### Generating docx, HTML, or PDF
 
 To render locally into a web browser, use
 
@@ -75,7 +75,8 @@ To render locally into a web browser, use
 mdbook serve --open .
 ```
 
-To generate a PDF in `.book/pandoc/pdf/HomeManual.pdf`, use:
+To generate a Microsoft Word `.docx` in `pandoc/docx/HomeManual.docx`
+and a PDF in `.book/pandoc/pdf/HomeManual.pdf`, use:
 
 ```sh
 mdbook build

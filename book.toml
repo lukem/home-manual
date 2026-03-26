@@ -12,6 +12,9 @@ create-missing = false
 
 [output.pandoc]
 
+[output.pandoc.profile.docx]
+output-file = "HomeManual.docx"
+
 [output.pandoc.profile.pdf]
 output-file = "HomeManual.pdf"
 # verbosity = "INFO"

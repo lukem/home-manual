@@ -13,8 +13,8 @@ include in your *Home Manual*.
 
 Two template variations are provided:
 
-1. [#template-in-mdbook-format](Template in mdbook format)
-2. [#template-in-docx-format](Template in docx format)
+1. [Template in mdbook format](#template-in-mdbook-format)
+2. [Template in docx format](#template-in-docx-format)
 
 Luke Mewburn, Luke@Mewburn.net.
 08 April 2026.

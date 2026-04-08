@@ -11,8 +11,13 @@ your home, for day-to-day purposes as well as when emergencies occur.
 This repository contains templates outlining the recommended information to
 include in your *Home Manual*.
 
+Two template variations are provided:
+
+1. [#template-in-mdbook-format](Template in mdbook format)
+2. [#template-in-docx-format](Template in docx format)
+
 Luke Mewburn, Luke@Mewburn.net.
-22 February 2026.
+08 April 2026.
 
 ## Template in mdbook format
 
@@ -20,7 +25,7 @@ Luke Mewburn, Luke@Mewburn.net.
 
 See the [template/SUMMARY.md](template/SUMMARY.md) file.
 
-This is a template based on my current practice (as at Feburary 2026).
+This is a template based on my current practice (as of April 2026).
 The manual is a **git** repository containing a tree of directories in (GitHub
 compatible) Markdown format, including the link and anchor slug format.
 
@@ -67,7 +72,7 @@ cargo install mdbook mdbook-lint mdbook-numbering mdbook-pandoc
 brew install pandoc librsvg python homebrew/cask/basictex
 ```
 
-### Generating docx, HTML, or PDF
+### Generating docx, HTML, and PDF
 
 To render locally into a web browser, use
 
@@ -81,6 +86,11 @@ and a PDF in `.book/pandoc/pdf/HomeManual.pdf`, use:
 ```sh
 mdbook build
 ```
+
+## Template in docx format
+
+A template in Microsoft Word `.docx` format is available as
+the file [template.docx](template.docx).
 
 ## General advice
 
